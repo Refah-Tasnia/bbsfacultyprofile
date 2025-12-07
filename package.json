@@ -1,0 +1,39 @@
+{
+  "name": "faculty-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Faculty Portal (Node.js + Express + MySQL)",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "jwt",
+    "faculty",
+    "backend",
+    "api"
+  ],
+  "author": "Refah Tasnia",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.2",
+    "get-stream": "^9.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.2",
+    "nodemailer": "^7.0.10",
+    "pdfkit": "^0.17.2",
+    "puppeteer": "^24.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
